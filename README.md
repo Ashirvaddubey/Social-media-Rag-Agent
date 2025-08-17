@@ -4,7 +4,9 @@
 > 
 > **🌐 Live Demo:** [https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app](https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app)
 > 
-> **📹 Complete Functional Demo Video:** [Watch Full Application Demo](https://drive.google.com/file/d/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/view?usp=sharing)
+> **📹 Complete Functional Demo Video:**
+> 
+> [![Complete Application Demo](https://img.youtube.com/vi/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/maxresdefault.jpg)](https://www.youtube.com/watch?v=1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm)
 > 
 > **📝 What This Is:** This repository contains a **prototype/flowchart** of the full Social Media RAG application. It demonstrates the user interface, navigation flow, and basic functionality with **demo accounts only**.
 > 
@@ -22,7 +24,7 @@
 > 
 > **🎯 Purpose:** This serves as a **UI/UX demonstration** and **application flow showcase** for stakeholders, investors, or development planning.
 > 
-> **🚀 Full Application:** Watch the [complete functional demo video](https://drive.google.com/file/d/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/view?usp=sharing) to see the fully working application with all features implemented.
+> **🚀 Full Application:** Watch the complete functional demo video above to see the fully working application with all features implemented.
 
 ---
 
@@ -70,7 +72,9 @@ A production-ready, AI-powered social media trend analysis system that combines 
 ## 🚀 Quick Start
 
 ### 0. Watch Complete Functional Demo 🎥
-**📹 [Complete Application Demo Video](https://drive.google.com/file/d/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/view?usp=sharing)**
+**📹 Complete Application Demo Video:**
+
+[![Complete Application Demo](https://img.youtube.com/vi/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/maxresdefault.jpg)](https://www.youtube.com/watch?v=1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm)
 
 This video demonstrates the **fully functional Social Media RAG application** with:
 - ✅ Real-time data ingestion from social media platforms
