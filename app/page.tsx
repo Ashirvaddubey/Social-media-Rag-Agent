@@ -14,6 +14,7 @@ export default function HomePage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [user, setUser] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
   // Prevent hydration mismatch by not rendering until client-side
   const [mounted, setMounted] = useState(false)
@@ -38,6 +39,7 @@ export default function HomePage() {
     } catch (error) {
       // Silently handle auth errors - this is expected for demo mode
       localStorage.removeItem("auth_token")
+      console.log("Auth verification failed, using demo mode")
     } finally {
       setLoading(false)
     }
@@ -144,16 +146,9 @@ export default function HomePage() {
       </main>
 
       <footer className="border-t bg-white/80 backdrop-blur-sm mt-16">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center justify-between text-sm text-gray-600">
-            <div>
-              <p className="font-semibold">Social Media RAG System v1.0</p>
-              <p>Real-time trend analysis powered by AI</p>
-            </div>
-            <div className="text-right">
-              <p>Data sources: HackerNews, RSS, Reddit, YouTube</p>
-              <p>Last updated: {new Date().toLocaleTimeString()}</p>
-            </div>
+        <div className="container mx-auto px-4 py-8">
+          <div className="text-center text-gray-600">
+            <p>© 2024 Social Media RAG. Built with Next.js, React, and AI.</p>
           </div>
         </div>
       </footer>
