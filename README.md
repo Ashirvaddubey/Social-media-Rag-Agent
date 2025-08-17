@@ -1,8 +1,32 @@
 # Social Media RAG with Trend Analysis
 
+> **🚨 IMPORTANT: This is a PROTOTYPE/DEMO version of the application**
+> 
+> **🌐 Live Demo:** [https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app](https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app)
+> 
+> **📝 What This Is:** This repository contains a **prototype/flowchart** of the full Social Media RAG application. It demonstrates the user interface, navigation flow, and basic functionality with **demo accounts only**.
+> 
+> **🔑 Demo Accounts Available:**
+> - **Admin:** `admin` / `admin123`
+> - **User1:** `user1` / `user123`
+> - **Demo:** `demo` / `demo123`
+> 
+> **⚠️ Limitations:** This prototype does NOT include:
+> - Real data ingestion from social media platforms
+> - ChromaDB vector database functionality
+> - YouTube API integration
+> - Actual RAG (Retrieval-Augmented Generation) features
+> - Production backend services
+> 
+> **🎯 Purpose:** This serves as a **UI/UX demonstration** and **application flow showcase** for stakeholders, investors, or development planning.
+
+---
+
 A production-ready, AI-powered social media trend analysis system that combines real-time data ingestion, vector embeddings, and retrieval-augmented generation (RAG) to provide intelligent insights across HackerNews, RSS feeds, Reddit, and YouTube.
 
 ## 🚀 Features
+
+> **📋 Note:** The features listed below represent the **intended functionality** of the full production application. The current prototype demonstrates the **UI/UX design** and **user flow** but does not include the actual backend implementation.
 
 ### Core Capabilities
 - **Multi-Platform Data Ingestion**: Automated collection from HackerNews, RSS feeds, Reddit, and YouTube APIs
@@ -44,9 +68,10 @@ A production-ready, AI-powered social media trend analysis system that combines 
 ### 1. Demo Mode (Recommended)
 The easiest way to explore the system:
 
-1. **Deploy to Vercel**: Click the deploy button or push to GitHub
-2. **Initialize Demo**: Click "Initialize Demo" in the banner when the app loads
-3. **Explore Features**: Try the sample queries in the chat interface
+1. **Visit Live Demo**: [https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app](https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app)
+2. **Use Demo Accounts**: Login with any of the provided demo credentials above
+3. **Explore Features**: Navigate through the UI to see the application flow and design
+4. **Understand the Concept**: This demonstrates the intended user experience and feature set
 
 ### 2. Production Setup
 
@@ -59,7 +84,7 @@ The easiest way to explore the system:
 #### Environment Variables
 Create a `.env.local` file:
 
-\`\`\`env
+```env
 # Social Media APIs
 YOUTUBE_API_KEY=your_youtube_api_key
 REDDIT_CLIENT_ID=your_reddit_client_id
@@ -79,12 +104,12 @@ MONGODB_URL=your_database_url
 
 # Authentication
 JWT_SECRET=your_jwt_secret_here
-\`\`\`
+```
 
 **Note**: HackerNews and RSS feeds are completely free and don't require API keys!
 
 #### Installation
-\`\`\`bash
+```bash
 # Clone the repository
 git clone <repository-url>
 cd social-media-rag
@@ -97,7 +122,7 @@ npm run dev
 
 # Initialize with real data
 curl -X POST http://localhost:3000/api/ingestion/trigger
-\`\`\`
+```
 
 ### 3. ChromaDB Setup (Optional but Recommended)
 
@@ -133,7 +158,7 @@ chroma run --host localhost --port 8000
 
 ## 📊 System Architecture
 
-\`\`\`
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                    Frontend Dashboard                        │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌──────────────┐ │
@@ -164,7 +189,7 @@ chroma run --host localhost --port 8000
 │  │      APIs       │  │      API        │  │   Database   │ │
 │  └─────────────────┘  └─────────────────┘  └──────────────┘ │
 └─────────────────────────────────────────────────────────────┘
-\`\`\`
+```
 
 ## 🔧 Configuration
 
@@ -203,7 +228,7 @@ Try these example queries:
 - "What are the cross-platform trending topics?"
 
 ### API Endpoints
-\`\`\`bash
+```bash
 # Trigger data ingestion
 POST /api/ingestion/trigger
 
@@ -218,15 +243,40 @@ POST /api/chat
 
 # Initialize demo data
 POST /api/demo/init
-\`\`\`
+```
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### Current Status: PROTOTYPE DEPLOYED ✅
+
+**🌐 Live Demo Application:** [https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app](https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app)
+
+**📱 What's Currently Deployed:**
+- ✅ **Frontend UI/UX** - Complete Next.js application with modern design
+- ✅ **Demo User Accounts** - Working authentication system
+- ✅ **Application Flow** - Full navigation and user experience
+- ✅ **Responsive Design** - Mobile and desktop optimized interface
+
+**🚫 What's NOT Deployed (Prototype Limitations):**
+- ❌ **Backend Services** - No real data processing
+- ❌ **Social Media APIs** - No actual data ingestion
+- ❌ **ChromaDB** - No vector database functionality
+- ❌ **RAG System** - No AI-powered insights
+- ❌ **Real-time Data** - Static demo content only
+
+### Future Production Deployment
+
+#### Vercel (Frontend)
 1. Push code to GitHub
 2. Connect repository to Vercel
 3. Add environment variables in Vercel dashboard
 4. Deploy automatically
+
+#### Backend Services (Required for Full Functionality)
+- **Render/Railway**: For Python FastAPI backend
+- **ChromaDB**: For vector database
+- **Social Media APIs**: For real data ingestion
+- **AI Services**: For embeddings and LLM functionality
 
 ### Other Platforms
 - **Railway**: Use the provided `railway.json`
