@@ -10,11 +10,6 @@
 > 
 > **📝 What This Is:** This repository contains a **prototype/flowchart** of the full Social Media RAG application. It demonstrates the user interface, navigation flow, and basic functionality with **demo accounts only**.
 > 
-> **🔑 Demo Accounts Available:**
-> - **Admin:** `admin` / `admin123`
-> - **User1:** `user1` / `user123`
-> - **Demo:** `demo` / `demo123`
-> 
 > **⚠️ Limitations:** This prototype does NOT include:
 > - Real data ingestion from social media platforms
 > - ChromaDB vector database functionality
