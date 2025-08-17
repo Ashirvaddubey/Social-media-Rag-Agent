@@ -4,9 +4,9 @@
 > 
 > **🌐 Live Demo:** [https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app](https://social-media-j86rtzw5r-ashirvaddubeys-projects.vercel.app)
 > 
-> **📹 Complete Functional Demo Video:**
+> **📹 Complete Functional Video:**
 > 
-> [![Complete Application Demo](https://img.youtube.com/vi/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/maxresdefault.jpg)](https://www.youtube.com/watch?v=1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm)
+> [![Complete Application Demo](https://drive.google.com/file/d/1M2cLjzgYLQ430AIanXUjo-og7PsDUwLm/view?usp=sharing)
 > 
 > **📝 What This Is:** This repository contains a **prototype/flowchart** of the full Social Media RAG application. It demonstrates the user interface, navigation flow, and basic functionality with **demo accounts only**.
 > 
